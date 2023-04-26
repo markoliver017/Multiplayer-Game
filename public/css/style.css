@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+:root {
+    --x: -6px;
+    --y: -5px;
+}
+body {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+}
+div#game-container {
+    color: aliceblue;
+    border: 5px solid gray;
+    box-shadow: 5px 5px 5px rgb(230, 179, 179);
+    position: relative;
+}
+.hero {
+    /* background-image: url("/images/hero5.png"); */
+    /* background-position: -85px -180px; */
+    background-size: cover;
+    background-position: center;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
+.bullet {
+    background: url("/images/1942.gif");
+    background-position: -185px -400px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+}
+#score {
+    position: absolute;
+    border: 2px solid red;
+    top: -55px;
+    left: 650px;
+    background-color: white;
+    padding: 5px 20px;
+    font-size: 30px;
+    color: black;
+}
+.enemy {
+    background: url("/images/1942.gif");
+    width: 28px;
+    height: 28px;
+    position: absolute;
+}
